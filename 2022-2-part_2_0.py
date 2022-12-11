@@ -21,7 +21,7 @@ for line in lines:
         ('C','Y') : 'S',
         ('C','Z') : 'R'
     }[(op,goal)]
-    print((op,goal))
+    
     # calculate the winner for the round
     winner = "T"
     if ((op == 'A' and player_choice == 'P') or (op == 'C' and player_choice == 'R') or (op == 'B' and player_choice == 'S')):
